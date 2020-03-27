@@ -1,0 +1,14 @@
+<web-app>
+	<servlet>
+		<description>Jeronimo</description>
+		<display-name>Jeronimo</display-name>
+		<servlet-name>Jeronimo</servlet-name>
+		<servlet-class>Servlet.Jeronimo</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Jeronimo</servlet-name>
+		<url-pattern>/Jeronimo</url-pattern>
+	</servlet-mapping>
+</web-app>
+
